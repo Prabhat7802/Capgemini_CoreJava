@@ -13,12 +13,13 @@ public class Assignment2Q2 {
 	public int totalEmployeesSalary(ArrayList<Integer> employeeSalaries) {
 		int total = 0;
 		for (int employeeSalary : employeeSalaries) {
-			total += employeeSalary;
+			total = total + employeeSalary;
 		}
 		return total;
 	}
 
 	public static void main(String[] args) {
+		
 		ArrayList<Integer> employeeSalaries = new ArrayList<>();
 
 		Assignment2Q2 employee1 = new Manager();// constructor
