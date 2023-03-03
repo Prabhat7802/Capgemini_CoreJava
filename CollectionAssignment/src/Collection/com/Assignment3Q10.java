@@ -161,7 +161,7 @@ class MovieDetailsList {
 			}
 
 		} catch (NullPointerException nullp) {
-			// System.out.println("There are no movies in the list");
+			 System.out.println("There are no movies in the list");
 		}
 		return null;
 	}

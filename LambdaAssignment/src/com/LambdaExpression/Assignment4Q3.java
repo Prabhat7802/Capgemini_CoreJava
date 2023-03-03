@@ -72,3 +72,7 @@ public class Assignment4Q3 {
 		display();
 	}
 }
+
+
+//The double colon (::) operator, also known as method reference operator in Java, is used to call a 
+//method by referring to it with the help of its class directly.

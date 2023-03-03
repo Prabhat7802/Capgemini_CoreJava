@@ -26,6 +26,7 @@ public class Assignment4Q7 {
 			sb.append(entry.getKey());
 			sb.append("=");
 			sb.append(entry.getValue());
+			
 			sb.append(" ");
 		}
 

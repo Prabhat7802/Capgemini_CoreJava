@@ -1,6 +1,8 @@
 package objectClass.com;
 
 /*The Java Generics programming is introduced  to deal with type-safe objects.
+
+
 It makes the code stable by detecting the bugs at compile time.
 
 Before generics, we can store any type of objects in the collection, i.e., non-generic. 

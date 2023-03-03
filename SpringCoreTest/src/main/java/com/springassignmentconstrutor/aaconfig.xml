@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+        
+        
+ 
+	
+  	<bean   name="customer" class="com.springassignmentconstrutor.Customer"  >
+
+
+
+		<constructor-arg value="102" type="int" />
+		<constructor-arg value="Harish" />
+		<constructor-arg value="5376522" />
+		<constructor-arg value="address2" />
+
+
+
+	</bean>
+
+	<bean class="com.springassignmentconstrutor.Address" name="customerAddress">
+		<constructor-arg value="canaught place " />
+		<constructor-arg value="Delhi" />
+		<constructor-arg value="Union Territory" />
+		<constructor-arg value="63555" type="int" />
+		<constructor-arg value="India" />
+
+
+	</bean> 
+
+
+
+
+
+
+
+</beans>

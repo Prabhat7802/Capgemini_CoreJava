@@ -25,6 +25,7 @@ public class collectionInJava {
 	
 	/*Now we have seen some collections:-
 	ArrayList
+	vector
 	Stack
 	Linked List
 	ArrayDeque
